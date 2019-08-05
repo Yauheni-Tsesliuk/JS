@@ -1,0 +1,10 @@
+{
+    "rp_base_url": "https://rp.epam.com/api/v1/",
+    "rp_project": "yauheni_tsesliuk_personal",
+
+    "rp_name_dashboard": "XXX123",
+    "rp_description_dashboard": "Test DashBoard Frisby JS",
+    "rp_share_dashboard": true
+   
+
+}

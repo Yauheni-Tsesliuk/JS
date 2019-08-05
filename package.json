@@ -1,0 +1,17 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "main": "api_spec.js",
+  "scripts": {
+    "test": "node_modules/.bin/jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "frisby": "^2.1.2",
+    "jest": "^24.8.0"
+  },
+  "dependencies": {},
+  "description": ""
+}

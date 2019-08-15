@@ -16,12 +16,12 @@ it ('RP Dashboard Controller Create/Delete ', function (done) {
       .get(input_data.rp_base_url+input_data.rp_project+'/dashboard')
       .expect('status', 200)         
           .then(function(res){
+            console.log("It Works!");
                 var body_json = JSON.parse(res['body']) 
                 var num_records = Object.keys(body_json).length;
                 var i;
                 
                 for (i = 0; i < num_records; i++) {
-                    //console.log('Check!' + num_records + ' ' + res.json[i].name);
                     if (res.json[i].name == input_data.rp_name_dashboard)
                     {
                             frisby.setup({
@@ -64,7 +64,7 @@ it ('RP Dashboard Controller Create/Delete ', function (done) {
                
         
             })
- 
+           
      .done(done)
     
   });

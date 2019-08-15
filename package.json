@@ -1,10 +1,13 @@
 {
-  "name": "js",
+  "name": "js-test",
+  "jest": {
+    "verbose": true
+  },
   "version": "1.0.0",
   "main": "api_spec.js",
   "scripts": {
-    "test": "node_modules/.bin/jest"
-  },
+    "start": "./node_modules/.bin/jest"
+    },
   "keywords": [],
   "author": "",
   "license": "ISC",
